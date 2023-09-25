@@ -10,14 +10,14 @@ function insertBanner() {
   // Código para dispositivos móveis
   bannerContainer.innerHTML = `
     <a id="top-ad" href="" target="_blank" rel="sponsored">
-    <img src="" width="" height="" alt=""/>
+      <img src="" width="" height="" alt=""/>
     </a>
   `;
   } else {
   // Código para desktop e tablets
   bannerContainer.innerHTML = `
     <a id="top-ad" href="" target="_blank" rel="sponsored">
-    <img src="" width="" height="" alt=""/>
+      <img src="" width="" height="" alt=""/>
     </a>
   `;
   }
