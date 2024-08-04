@@ -1,4 +1,4 @@
-# Vanilla JS Ad Insertion
+# Vanilla JS | Ad Insertion
 
 Snippet to conditionally display promotional banners depending on the user's device. Executed on the client side.
 
