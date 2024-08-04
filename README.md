@@ -1,9 +1,9 @@
-# Banner Condicional em Vanilla JS
-Trecho para exibir condicionalmente banners promocionais a depender do dispositivo do usuário. Executado no lado do cliente.
-É uma alternativa à [implementação via php](https://github.com/jvpdls/banner-condicional-php).
+# Vanilla JS Ad Insertion
 
-O script depende da existência de uma seção `<div id="top-banner"></div>` na página onde é chamado.
+Snippet to conditionally display promotional banners depending on the user's device. Executed on the client side.
 
-A vantagem de usar a implementação direto no front-end está no fato de não ser necessário separar as versões em cache da página a ser carregada quando o site é totalmente responsivo.
+The script depends on the existence of a `<div id="top-banner"></div>` section on the page where it is called.
 
-O código considera a inserção do script no rodapé do site, de modo que a seção onde a imagem será inserida já tenha sido criada quando ele for disponibilizado no DOM.
+The advantage of using direct implementation on the front end is not that you don't need to separate cached versions of the page to serve when the site is fully responsive.
+
+The code considers the insertion of the script in the footer of the website, so that the section where the image will be inserted will have already been created when it is made available in the DOM.
